@@ -95,19 +95,21 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    flex-wrap: wrap;
 }
 
 #computer {
+    margin-left: -400px;
+    left: -190px;
     width: 100%;
     max-width: 700px;
-    margin-bottom: 20px; /* Adds space between elements on smaller screens */
-}
+    margin-bottom: 20px;
+ }
 
 .text-middle-text {
     text-align: left;
     max-width: 700px;
-    margin-left: 20px; /* Adjusts spacing for better layout on larger screens */
+    margin-left: 180px; 
 }
 .text-middle-text h3 {
     color: hsl(210, 10%, 33%);
@@ -185,7 +187,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px; /* Adjusted padding for better layout on smaller screens */
+    padding: 20px 20px; 
 }
 
 .Footer .logo2 {
@@ -199,7 +201,7 @@ body {
 .Footer .footer-text {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adjusted gap for better layout on smaller screens */
+    gap: 20px; 
     color: hsl(210, 3%, 40%);
 }
 .Footer .footer-text .contact-us-press-kit {
@@ -245,6 +247,13 @@ body {
     .header {
         height: 200px;
     }
+    #computer{
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 200px;
+    }
+    
     #logo-c{
         
         margin-top: 590px;
