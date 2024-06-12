@@ -178,6 +178,9 @@ body {
  #plain{
     padding-bottom: 5px;
  }
+#sneak{
+    margin-top:8px;
+}
 
 .companies-logo img {
     max-width: 100px; 
