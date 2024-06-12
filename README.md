@@ -1,2 +1,2 @@
-# Riyaz
-Riyaz tasks
+# Ryaz
+Ryaz tasks
