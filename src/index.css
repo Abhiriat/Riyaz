@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+ 
+  background:rgb(167, 167, 248);
+  
+}
+@media (max-width:480px){
+  body{
+    background: rgb(215, 215, 243);
+  }
+}

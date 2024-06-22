@@ -1,0 +1,66 @@
+.container1 {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background: rgb(215, 215, 243);
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .container1 ul{
+    margin-left: 15px;
+  }
+  .container1 .get{
+    width: 100px;
+    
+    padding-left: 8px;
+    padding-bottom: 10px;
+    padding-top:10px ;
+    font-size: 20px;
+    margin-left: 0px;
+    color: white;
+    border-radius: 8px;
+    background-color: blue;
+    text-decoration: none;
+
+
+  }
+  .get:hover{
+    background-color: rgb(0, 0, 90);
+  }
+  
+  @media(max-width:1920px){
+    .container1{
+      margin-top: 200px;
+      width: 100%;
+      
+      
+    }
+
+  }
+  @media(max-width:1366px) {
+    .container1{
+      margin-top:100px;
+    }
+  }
+  @media(max-width:1120px){
+    .container1{
+      margin-top: 50px;
+     
+      
+    }
+
+  }
+  @media (max-width: 568px) {
+    .container1 {
+      margin-top:70px ;
+      width: 85%;
+    }
+    .container1 .get{
+      width: 117px;
+    }
+  }
