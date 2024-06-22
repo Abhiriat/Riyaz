@@ -29,7 +29,15 @@ function Question() {
       }
       setDone(true);
 
+<<<<<<< HEAD
      
+=======
+      if (index === data.length - 1) {
+        setTimeout(() => {
+          setResult(true);
+        }, 1000);
+      }
+>>>>>>> 2315543aae1faef4c2ec1caa64731b001c3850c3
     }
   };
   const Checkscore=()=>{
@@ -44,7 +52,11 @@ function Question() {
         option.current.classList.remove("wrong");
         option.current.classList.remove("correct");
       });
+<<<<<<< HEAD
     } else if (!done) {
+=======
+    }else if(!done){
+>>>>>>> 2315543aae1faef4c2ec1caa64731b001c3850c3
       alert("please select an answer before proceeding");
     }
   };
@@ -102,4 +114,8 @@ function Question() {
   );
 }
 
+<<<<<<< HEAD
 export default Question
+=======
+export default Question;
+>>>>>>> 2315543aae1faef4c2ec1caa64731b001c3850c3

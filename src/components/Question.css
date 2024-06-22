@@ -158,6 +158,7 @@
 }
 @media (max-width: 1920px) {
   .container {
+<<<<<<< HEAD
     margin-top: 150px;
   }
   .container .next{
@@ -261,6 +262,13 @@
     padding-top: 12px;
     width: 96%;
     height: auto;
+=======
+    width: auto;
+    margin-top: 0px;
+    padding: 15px;
+    height: 449px;
+    border-radius: 1px;
+>>>>>>> 2315543aae1faef4c2ec1caa64731b001c3850c3
   }
 
   .quiz-pic {
@@ -276,6 +284,7 @@
   .container .numbering {
     font-size: 16px;
   }
+<<<<<<< HEAD
 
   .quiz-end {
     width: 100%;
@@ -316,3 +325,6 @@
   }
  
 }
+=======
+}
+>>>>>>> 2315543aae1faef4c2ec1caa64731b001c3850c3
